@@ -5,9 +5,9 @@
 // addListenerBtn.addEventListener('click', () => {
 //   console.log('вішаю слушеткля на ціль кнопку');
 
-//   // targetBtn.addEventListener('click', () => {
-//   //   console.log('клик по целевой кнопке');
-//   // });
+//   targetBtn.addEventListener('click', () => {
+//     console.log('клик по целевой кнопке');
+//   });
 //   targetBtn.addEventListener('click', onTragetbtnClick);
 // });
 
@@ -114,18 +114,18 @@
 // }
 
 // 555555  eventlistener
-document.addEventListener('keyup', onBoard);
+// document.addEventListener('keyup', onBoard);
 
-const add = document.addEventListener('click', onClick);
-// document.body.insertAdjacentElement('beforeend', '<div class="box"></div>');
+// const add = document.addEventListener('click', onClick);
+// // document.body.insertAdjacentElement('beforeend', '<div class="box"></div>');
 
-function onBoard(evt) {
-  if (evt.code === 'Escape') {
-    const box = document.querySelector('.box');
-    box.remove();
-  }
-}
+// function onBoard(evt) {
+//   if (evt.code === 'Escape') {
+//     const box = document.querySelector('.box');
+//     box.remove();
+//   }
+// }
 
-function onClick() {
-  document.body.insertAdjacentHTML('beforeend', '<div class="box"></div>');
-}
+// function onClick() {
+//   document.body.insertAdjacentHTML('beforeend', '<div class="box"></div>');
+// }
